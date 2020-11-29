@@ -1,0 +1,43 @@
+POST https://us-central1-user-management-app-c1af1.cloudfunctions.net/api/createuser HTTP/1.1
+Content-Type: application/json
+ 
+ {
+			"name":"Juan",
+			"lastname":"Zabala",
+			"identification":855422244,
+			"birthdate":"23 de octubre",
+			"city":"Medellin",
+	  	    "neighborhood":"Centro",
+			"phone":3205284578
+ }
+
+
+
+###
+GET https://us-central1-user-management-app-c1af1.cloudfunctions.net/api/listusers HTTP/1.1
+Content-Type: application/json
+
+
+###
+PUT https://us-central1-user-management-app-c1af1.cloudfunctions.net/api/updateuser HTTP/1.1
+Content-Type: application/json
+
+ {
+    	"id": "lDLakzWhx0YmJ5td6AbK",
+      "name": "Juan Esteban",
+      "lastname": "Zabala",
+      "identification": 855422244,
+      "birthdate": "01 de octubre",
+      "city": "Medellin",
+      "neighborhood": "Manrique",
+      "phone": 3205284578
+ }
+
+###
+
+DELETE https://us-central1-user-management-app-c1af1.cloudfunctions.net/api/userdelete HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "lDLakzWhx0YmJ5td6AbK"
+}
