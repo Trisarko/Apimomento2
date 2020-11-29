@@ -1,0 +1,16 @@
+Moviles 3 Momento 2
+
+Integrantes
+ALejandra Restrepo
+Alejandro Roncancio
+Juan Camilo Quiroz
+Yuly Morales
+
+Link del video en Youtube
+
+https://www.youtube.com/watch?v=eadIv2NuZEs&feature=youtu.be
+
+Link repositirios
+
+https://github.com/Trisarko/CrudReactNative.git
+https://github.com/Trisarko/Apimomento2.git
